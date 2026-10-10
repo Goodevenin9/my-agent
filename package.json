@@ -1,0 +1,22 @@
+{
+	"name": "my-agent",
+	"private": true,
+	"version": "0.0.0",
+	"description": "从零学 Agent 原理的脚手架",
+	"type": "module",
+	"scripts": {
+		"start": "tsx src/index.ts",
+		"dev": "tsx watch src/index.ts",
+		"typecheck": "tsc --noEmit",
+		"test": "tsx --test test/index.test.ts"
+	},
+	"dependencies": {
+		"dotenv": "^18.0.7",
+		"openai": "^7.32.0"
+	},
+	"devDependencies": {
+		"@types/node": "^26.6.5",
+		"tsx": "^4.23.15",
+		"typescript": "^7.0.2"
+	}
+}
